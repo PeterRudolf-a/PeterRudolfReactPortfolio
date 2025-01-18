@@ -1,12 +1,23 @@
-import React from 'react';
-import '../assets/Github.png';
-import '../assets/LinkedIn.png';
+import React from 'react'; // Import the React library
+import { Link } from 'react-router-dom'; // Import the Link component from the react-router-dom library
+import GitHubIcon from '../assets/GitHub.png'; // Import the GitHub icon
+import LinkedInIcon from '../assets/LinkedIn.png'; // Import the LinkedIn icon
+import StackOverflow from '../assets/StackOverflow.png'; // Import the StackOverflow icon
+
+import '../styles/Footer.css';
 
 export default function Footer() {
     return (
-        <footer className="main-footer">
-            <img src="../assets/Github.png" alt="GitHub" />
-            <img src="../assets/LinkedIn.png" alt="LinkedIn" />
+        <footer className="main-footer" id="footer"> 
+            <Link to="https://github.com/PeterRudolf-a" className="footer-link">
+                <img src={GitHubIcon} className='footer-img' alt="GitHub>" />
+            </Link>
+            <Link to="https://www.linkedin.com/in/peter-milos-rudolf/" className="footer-link">
+                <img src={LinkedInIcon} className='footer-img' alt="LinkedIn" />
+            </Link>
+            <Link to="https://stackoverflow.com/users/29234622/peter-rudolf" className="footer-link">
+                <img src={StackOverflow} className='footer-img' alt="StackOverflow" />
+            </Link>
         </footer>
     );
 }

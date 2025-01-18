@@ -1,8 +1,14 @@
+import React from 'react';
+import { Link } from 'react-router-dom';
+import '../styles/Portfolio.css';
+
 export default function Project(project) {
     return (
-        <div className="flex-container">
+        <Link to={project.path}>
+        <div className={project.className}>
             <h3>{project.name}</h3>
-            <p>{project.description}</p>
+            <span>{project.description}</span>
         </div>
+        </Link>
     );
 }

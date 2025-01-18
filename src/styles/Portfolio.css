@@ -1,0 +1,86 @@
+.portfolio-wrapper {
+    max-width: 88%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-section {
+    margin: 25px 0;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.portfolio-section>h2 {
+    flex: 0 0 20%;
+    text-align: right;
+    padding-right: 15px;
+    border-right: 4px solid var(--primary);
+    font-size: 4vw;
+    line-height: 1.1;
+}
+
+.portfolio-section>div {
+    flex: 0 0 77%;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-item {
+    min-height: 150px;
+    max-height: 150px;
+    flex-basis: calc(50% - 1em);
+    color: #d41b1b;
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-size: 150%;
+    transition: all 0.5s;
+    font-size: 0.9rem;
+}
+
+.flex-item:first-child {
+    min-height: 400px;
+    flex-basis: 100%;
+}
+
+.flex-item:hover {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.flex-item div {
+    padding: 8px 10px;
+}
+
+.flex-item h3 {
+    font-size: 1.6rem;
+}
+
+.christmas-assistance {
+    background-image: url("../assets/christmas-assistance.png");
+}
+
+.vehicle-builder {
+    background-image: url("../assets/vehicle-builder.jpg");
+}
+
+.readme-generator {
+    background-image: url("../assets/readme-generator.png");
+}
+
+.weather-dashboard {
+    background-image: url("../assets/weather-dashboard.jpg");
+}
+
+.employee-tracker {
+    background-image: url("../assets/employee-tracker.png");
+}

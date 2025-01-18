@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem 0;
+    width: auto;
+    height: auto;
+}
+
+footer img {
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+}
+
+footer Link {
+    color: var(--tertiary);
+    text-decoration: none;
+    transition: all 0.25s ease-in;
+    margin: 0 0.2rem 0.1rem;
+    display: inline-block;
+}

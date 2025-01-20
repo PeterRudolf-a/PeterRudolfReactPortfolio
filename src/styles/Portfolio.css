@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+  }
+
 .portfolio-wrapper {
     max-width: 88%;
     margin-left: auto;
@@ -37,7 +41,6 @@
     min-height: 150px;
     max-height: 150px;
     flex-basis: calc(50% - 1em);
-    color: #d41b1b;
     display: flex;
     align-items: flex-end;
     padding: 0 0 20px 0;
@@ -45,7 +48,8 @@
     text-decoration: none;
     background-size: 150%;
     transition: all 0.5s;
-    font-size: 0.9rem;
+    font-size: 1.0rem;
+    color: rgb(26, 235, 207);
 }
 
 .flex-item:first-child {
@@ -70,7 +74,7 @@
 }
 
 .vehicle-builder {
-    background-image: url("../assets/vehicle-builder.jpg");
+    background-image: url("../assets/vehicle-builder.png");
 }
 
 .readme-generator {
@@ -78,7 +82,7 @@
 }
 
 .weather-dashboard {
-    background-image: url("../assets/weather-dashboard.jpg");
+    background-image: url("../assets/weather-dashboard.png");
 }
 
 .employee-tracker {

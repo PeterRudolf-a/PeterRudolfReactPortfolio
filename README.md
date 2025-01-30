@@ -15,5 +15,5 @@ To install, click the code button to clone the repository.
 
 
 ## Usage
-You can visit the deployed application at Netifly: link here
+You can visit the deployed application at Netifly: https://peter-rudolf-react-portfolio.netlify.app/ 
 

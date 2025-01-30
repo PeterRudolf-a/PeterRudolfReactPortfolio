@@ -26,12 +26,6 @@ export default function Portfolio() {
               path="https://github.com/PeterRudolf-a/PeterReadMeGenerator"
             />
             <Project
-              name="Weather Dashboard"
-              className="flex-item weather-dashboard"
-              path="https://github.com/PeterRudolf-a/PeterWeatherDashboard"
-              deployed="https://peterweatherdashboard.onrender.com/"
-            />
-            <Project
               name="Employee Tracker"
               className="flex-item employee-tracker"
               path="https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker"

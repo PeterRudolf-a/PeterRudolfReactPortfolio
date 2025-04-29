@@ -10,8 +10,9 @@ export default function About() {
         style={{ width: "200px", height: "200px", borderRadius: "50%" }}
        /> {/* profile picture/avatar */}
       <p>
-        I am a aspiring full stack developer. I am currently enrolled in the University of Toronto's Coding Bootcamp. 
-        I am looking forward to learning more about coding, and developing my skills. I am hopeful that I will be able to work full time as a developer in the near future.
+        I am a aspiring full stack developer. I have recently finished the University of Toronto's Coding Bootcamp, and I graduated from Durham College in the Computer Programmer and Analysis course. 
+        I am looking forward to learning more about coding, and developing my skills. I am dedicated to identifying needs and delivering effective solutions to all problems.
+        I am currently looking for a full-time position in the field of software development. I am a quick learner, and I am always looking to improve my skills.
       </p> {/* about me paragraph */}
     </div>
   )

@@ -1,14 +1,14 @@
-import Project from '../Project' // Import the Project component
-import '../../styles/Portfolio.css' // Import the Portfolio.css file
+import Project from "../Project";
+import "../../styles/Portfolio.css";
 
-// Create a function called Portfolio that returns a section with a list of projects
 export default function Portfolio() {
   return (
     <main className="portfolio-wrapper">
       <section className="portfolio-section">
-        <h2>Portfolio</h2> {/* Add a heading for the section */}
-        <div className="flex-container"> {/* Add a container for the projects */}
-          <section className="portfolio"> {/* Add a section for the projects */}
+        <h2>Portfolio</h2>
+        <div className="portfolio-grid-container">
+          <div className="flex-container">
+            {/* REMOVE the unnecessary <section className="portfolio"> wrapper */}
             <Project
               name="Christmas Assistance Application"
               className="flex-item christmas-assistance"
@@ -30,9 +30,21 @@ export default function Portfolio() {
               className="flex-item employee-tracker"
               path="https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker"
             />
-          </section>
+            <Project
+              name="Travel Buddy"
+              className="flex-item travel-buddy"
+              path="https://github.com/PeterRudolf-a/Travel-Buddy"
+              deployed="https://travel-buddy-1-9ije.onrender.com/"
+            />
+            <Project
+              name="Movie Squad"
+              className="flex-item movie-squad"
+              path="https://github.com/PeterRudolf-a/MovieSquad"
+              deployed="https://moviesquad.onrender.com/"
+            />
+          </div>
         </div>
       </section>
     </main>
-  )
+  );
 }

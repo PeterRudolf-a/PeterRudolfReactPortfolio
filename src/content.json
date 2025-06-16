@@ -1,0 +1,57 @@
+{
+  "bio": "Full-stack developer with hands-on experience building scalable web applications using JavaScript, TypeScript, React, Node.js, and MongoDB. Graduate of the University of Toronto Coding Bootcamp and Durham College’s Computer Programmer and Analysis program. Strong problem solver with a passion for learning, collaboration, and delivering polished code. Adaptable team player with excellent self-management and communication skills.",
+  "projects": [
+    {
+      "name": "Christmas Assistance Application",
+      "className": "flex-item christmas-assistance",
+      "path": "https://github.com/PeterRudolf-a/christmas-assistance-application",
+      "deployed": "https://revengelmfao.github.io/christmas-assistance-application/"
+    },
+    {
+      "name": "Vehicle Builder",
+      "className": "flex-item vehicle-builder",
+      "path": "https://github.com/PeterRudolf-a/PeterVehicleBuilder"
+    },
+    {
+      "name": "README Generator",
+      "className": "flex-item readme-generator",
+      "path": "https://github.com/PeterRudolf-a/PeterReadMeGenerator"
+    },
+    {
+      "name": "Employee Tracker",
+      "className": "flex-item employee-tracker",
+      "path": "https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker"
+    },
+    {
+      "name": "Travel Buddy",
+      "className": "flex-item travel-buddy",
+      "path": "https://github.com/PeterRudolf-a/Travel-Buddy",
+      "deployed": "https://travel-buddy-1-9ije.onrender.com/"
+    },
+    {
+      "name": "Movie Squad",
+      "className": "flex-item movie-squad",
+      "path": "https://github.com/PeterRudolf-a/MovieSquad",
+      "deployed": "https://moviesquad.onrender.com/"
+    }
+  ],
+  "resume": {
+    "link": "https://1drv.ms/w/c/76b33c7844737ff0/EekUykoZgwJEp3IkWwxOSe4B2vmVbT_gN7itAaoQ6cQ5Ag?e=4kOfQp",
+    "frontend": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React",
+      "GraphQL",
+      "jQuery"
+    ],
+    "backend": [
+      "Express",
+      "SQL",
+      "MongoDB",
+      "REST",
+      "Node",
+      "APIs"
+    ]
+  }
+}

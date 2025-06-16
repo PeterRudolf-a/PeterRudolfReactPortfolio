@@ -1,4 +1,5 @@
 import Project from "../Project";
+import content from "../../content.json";
 import "../../styles/Portfolio.css";
 
 export default function Portfolio() {
@@ -8,43 +9,21 @@ export default function Portfolio() {
         <h2>Portfolio</h2>
         <div className="portfolio-grid-container">
           <div className="flex-container">
-            {/* REMOVE the unnecessary <section className="portfolio"> wrapper */}
-            <Project
-              name="Christmas Assistance Application"
-              className="flex-item christmas-assistance"
-              path="https://github.com/PeterRudolf-a/christmas-assistance-application"
-              deployed="https://revengelmfao.github.io/christmas-assistance-application/"
-            />
-            <Project
-              name="Vehicle Builder"
-              className="flex-item vehicle-builder"
-              path="https://github.com/PeterRudolf-a/PeterVehicleBuilder"
-            />
-            <Project
-              name="README Generator"
-              className="flex-item readme-generator"
-              path="https://github.com/PeterRudolf-a/PeterReadMeGenerator"
-            />
-            <Project
-              name="Employee Tracker"
-              className="flex-item employee-tracker"
-              path="https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker"
-            />
-            <Project
-              name="Travel Buddy"
-              className="flex-item travel-buddy"
-              path="https://github.com/PeterRudolf-a/Travel-Buddy"
-              deployed="https://travel-buddy-1-9ije.onrender.com/"
-            />
-            <Project
-              name="Movie Squad"
-              className="flex-item movie-squad"
-              path="https://github.com/PeterRudolf-a/MovieSquad"
-              deployed="https://moviesquad.onrender.com/"
-            />
+            {content.projects.map((project, index) => (
+              <Project
+                key={index}
+                name={project.name}
+                className={project.className}
+                path={project.path}
+                deployed={project.deployed}
+              />
+            ))}
           </div>
         </div>
       </section>
     </main>
   );
 }
+// This component renders a portfolio section with a grid of projects, each represented by the Project component.
+// It maps through the projects defined in content.json and passes the relevant props to each Project component.
+// The portfolio section is styled using CSS classes defined in Portfolio.css.

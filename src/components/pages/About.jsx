@@ -1,7 +1,7 @@
-import React from "react"; // import react module
-import profileImg from '../../assets/profile.png'
+import React from "react";
+import profileImg from "../../assets/profile.png";
+import content from "../../content.json";
 
-// About page component
 export default function About() {
   return (
     <div style={{ textAlign: "left", margin: "20px", padding: "20px" }}>
@@ -11,17 +11,9 @@ export default function About() {
         alt="Profile"
         style={{ width: "200px", height: "200px", borderRadius: "50%" }}
       />
-      {/* profile picture/avatar */}
-      <p>
-        Full-stack developer with hands-on experience building scalable web
-        applications using JavaScript, TypeScript, React, Node.js, and MongoDB.
-        Graduate of the University of Toronto Coding Bootcamp and Durham
-        College’s Computer Programmer and Analysis program. Strong problem
-        solver with a passion for learning, collaboration, and delivering
-        polished code. Adaptable team player with excellent self-management and
-        communication skills.
-      </p>
-      {/* about me paragraph */}
+      <p>{content.bio}</p>
     </div>
   );
 }
+// This component renders an "About Me" section with a profile image and a biography.
+// The profile image is styled to be circular, and the biography is pulled from a content.json file.

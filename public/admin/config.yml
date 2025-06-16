@@ -1,0 +1,39 @@
+backend:
+  name: github
+  repo: PeterRudolf-a/PeterRudolfReactPortfolio # your GitHub repo
+  branch: main
+  login: true
+
+media_folder: "public/assets/uploads"
+public_folder: "/assets/uploads"
+
+collections:
+  - name: "content"
+    label: "Site Content"
+    files:
+      - file: "src/content.json"
+        label: "Main Content"
+        name: "main_content"
+        fields:
+          - { label: "Bio", name: "bio", widget: "text" }
+          - label: "Projects"
+            name: "projects"
+            widget: "list"
+            fields:
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Class Name", name: "className", widget: "string" }
+              - { label: "GitHub Path", name: "path", widget: "string" }
+              - { label: "Deployed Link", name: "deployed", widget: "string", required: false }
+          - label: "Resume"
+            name: "resume"
+            widget: "object"
+            fields:
+              - { label: "Resume Link", name: "link", widget: "string" }
+              - label: "Front-end Proficiencies"
+                name: "frontend"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }
+              - label: "Back-end Proficiencies"
+                name: "backend"
+                widget: "list"
+                field: { label: "Skill", name: "skill", widget: "string" }

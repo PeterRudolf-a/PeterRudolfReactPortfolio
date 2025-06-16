@@ -1,29 +1,29 @@
-import { Link } from "react-router-dom" // Import the Link component
+import { Link } from "react-router-dom";
+import content from "../../content.json";
 
-// Create a functional component called Resume
 export default function Resume() {
+  const { resume } = content;
+
   return (
     <div className="resume">
       <h1>Resume</h1>
-      <p>Download my <Link to='https://1drv.ms/w/c/76b33c7844737ff0/EekUykoZgwJEp3IkWwxOSe4B2vmVbT_gN7itAaoQ6cQ5Ag?e=4kOfQp'>Resume</Link></p> {/* Add a Link component to the resume for downloading*/}
-      <h2>Front-end Profiencies</h2> {/* heading for front-end proficiencies */}
-      <ul> {/* unordered list for front-end proficiencies */}
-          <li>HTML</li>
-          <li>CSS</li>
-          <li>JavaScript</li>
-          <li>React</li>
-          <li>GraphQL</li>
-          <li>jQuery</li>
+      <p>
+        Download my <Link to={resume.link}>Resume</Link>
+      </p>
+      <h2>Front-end Proficiencies</h2>
+      <ul>
+        {resume.frontend.map((item, index) => (
+          <li key={`frontend-${index}`}>{item}</li>
+        ))}
       </ul>
-      <h2>Back-end Profiencies</h2> {/* heading for back-end proficiencies */}
-      <ul> {/* unordered list for back-end proficiencies */}
-        <li>Express</li>
-        <li>SQL</li>
-        <li>MongoDB</li>
-        <li>REST</li>
-        <li>Node</li>
-        <li>APIs</li>
+      <h2>Back-end Proficiencies</h2>
+      <ul>
+        {resume.backend.map((item, index) => (
+          <li key={`backend-${index}`}>{item}</li>
+        ))}
       </ul>
     </div>
-  )
+  );
 }
+// This component renders a resume page with links to download the resume and lists of front-end and back-end proficiencies.
+// It uses the content from a JSON file to populate the lists and the download link.

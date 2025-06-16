@@ -1,2 +1,1 @@
-/.netlify/identity/confirm    /admin    302!
-/*    /index.html   200
+/#confirmation_token=:token   /admin  302!

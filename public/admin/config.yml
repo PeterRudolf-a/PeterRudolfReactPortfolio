@@ -1,9 +1,6 @@
 backend:
-  name: github
-  repo: PeterRudolf-a/PeterRudolfReactPortfolio
+  name: git-gateway
   branch: main
-  base_url: https://api.netlify.com
-  auth_endpoint: auth
 
 media_folder: "public/assets/uploads"
 public_folder: "/assets/uploads"

@@ -6,6 +6,7 @@ import copy from 'rollup-plugin-copy'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
+    react(),
     copy({
       targets: [
         { src: 'static/_redirects', dest: 'dist' }

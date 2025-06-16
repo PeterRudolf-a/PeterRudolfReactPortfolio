@@ -1,3 +1,4 @@
+import React from "react";
 import ReactDOM from 'react-dom/client'; // Import the ReactDOM module
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'; // Import the createBrowserRouter and RouterProvider functions
 import 'bootstrap/dist/css/bootstrap.min.css';

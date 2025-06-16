@@ -1,3 +1,4 @@
+import React from "react";
 import { Outlet } from 'react-router-dom'; // Import the Outlet component from the react-router-dom library
 import Header from './components/Header'; // Import the Header component
 import Footer from './components/Footer'; // Import the Footer component

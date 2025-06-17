@@ -3,10 +3,12 @@ import { Outlet } from 'react-router-dom'; // Import the Outlet component from t
 import Header from './components/Header'; // Import the Header component
 import Footer from './components/Footer'; // Import the Footer component
 import './styles/App.css'; // Import the App.css file
+import ConfirmRedirectHandler from "./components/ConfirmRedirectHandler";
 
 function App() {
   return (
     <>
+      <ConfirmRedirectHandler /> {/* Add the Confirmation redirects */}
       <Header /> {/* Add the Header component */}
       <div className="container">
         <div className="content" style={{ marginTop: '20px' }}>

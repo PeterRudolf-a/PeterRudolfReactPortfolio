@@ -11,6 +11,7 @@ import About from './components/pages/About'; // Import the About component
 import Portfolio from './components/pages/Portfolio'; // Import the Portfolio component
 import Contact from './components/pages/Contact'; // Import the Contact component
 import Resume from './components/pages/Resume'; // Import the Resume components
+import FreelanceServices from './components/pages/FreelanceServices'; // Import the FreelanceServices component
 
 // Create a router using the createBrowserRouter function
 const router = createBrowserRouter([
@@ -33,6 +34,10 @@ const router = createBrowserRouter([
             {
                 path: '/resume',
                 element: <Resume />, // Set the Resume component as a route
+            },
+            {
+                path: '/freelance-services',
+                element: <FreelanceServices />, // Set the FreelanceServices component as a route
             }
         ],
     }

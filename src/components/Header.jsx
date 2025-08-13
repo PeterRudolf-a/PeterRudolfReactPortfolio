@@ -21,6 +21,9 @@ export default function Header() {
             <Link key={4} to="/resume"> {/* create a Link component with the to prop set to "/resume" for the Resume page*/}
               Resume
             </Link>,
+            <Link key={5} to="/freelance-services"> {/* create a Link component with the to prop set to "/freelance-services" for the Freelance Services page*/}
+              Freelance Services
+            </Link>,
           ]}
         />
       </header>

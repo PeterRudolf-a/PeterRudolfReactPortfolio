@@ -1,0 +1,107 @@
+/* Matches your portfolio’s aesthetic */
+
+.section-bg {
+  background-color: #bcd2d0; /* same as your other sections */
+  padding: 4rem 0;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-bottom: 3rem;
+}
+
+.services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 2rem;
+}
+
+.service-card {
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  padding: 2rem;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+
+.service-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 14px rgba(0,0,0,0.15);
+}
+
+.service-title {
+  font-size: 1.25rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.service-price {
+  font-size: 1.75rem;
+  color: #1f6feb; /* matches your link/buttons */
+  margin-bottom: 1rem;
+}
+
+.service-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 1.5rem;
+  color: #555;
+}
+
+.service-list li {
+  margin: 0.5rem 0;
+}
+
+.checkmark {
+  color: green;
+  font-weight: bold;
+  margin-right: 0.5rem;
+}
+
+.btn-primary {
+  display: inline-block;
+  background-color: #1f6feb;
+  color: white;
+  padding: 0.5rem 1.25rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #1554b3;
+}
+
+.section-subtitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  color: #333;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-placeholder {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 6px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+  text-align: center;
+  color: #777;
+}
+.testimonial-placeholder p {
+  font-style: italic;
+  margin: 0;
+}

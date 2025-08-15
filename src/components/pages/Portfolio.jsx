@@ -16,6 +16,7 @@ export default function Portfolio() {
                 className={project.className}
                 path={project.path}
                 deployed={project.deployed}
+                image={project.image}
               />
             ))}
           </div>

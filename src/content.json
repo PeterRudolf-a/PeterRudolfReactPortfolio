@@ -5,34 +5,40 @@
       "name": "Christmas Assistance Application",
       "className": "flex-item christmas-assistance",
       "path": "https://github.com/PeterRudolf-a/christmas-assistance-application",
-      "deployed": "https://revengelmfao.github.io/christmas-assistance-application/"
+      "deployed": "https://revengelmfao.github.io/christmas-assistance-application/",
+      "image": "/assets/uploads/christmas-assistance.png"
     },
     {
       "name": "Vehicle Builder",
       "className": "flex-item vehicle-builder",
-      "path": "https://github.com/PeterRudolf-a/PeterVehicleBuilder"
+      "path": "https://github.com/PeterRudolf-a/PeterVehicleBuilder",
+      "image": "/assets/uploads/vehicle-builder.png"
     },
     {
       "name": "README Generator",
       "className": "flex-item readme-generator",
-      "path": "https://github.com/PeterRudolf-a/PeterReadMeGenerator"
+      "path": "https://github.com/PeterRudolf-a/PeterReadMeGenerator",
+      "image": "/assets/uploads/readme-generator.png"
     },
     {
       "name": "Employee Tracker",
       "className": "flex-item employee-tracker",
-      "path": "https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker"
+      "path": "https://github.com/PeterRudolf-a/PeterSQL_EmployeeTracker",
+      "image": "/assets/uploads/employee-tracker.png"
     },
     {
       "name": "Travel Buddy",
       "className": "flex-item travel-buddy",
       "path": "https://github.com/PeterRudolf-a/Travel-Buddy",
-      "deployed": "https://travel-buddy-1-9ije.onrender.com/"
+      "deployed": "https://travel-buddy-1-9ije.onrender.com/",
+      "image": "/assets/uploads/travel-buddy.jpg"
     },
     {
       "name": "Movie Squad",
       "className": "flex-item movie-squad",
       "path": "https://github.com/PeterRudolf-a/MovieSquad",
-      "deployed": "https://moviesquad.onrender.com/"
+      "deployed": "https://moviesquad.onrender.com/",
+      "image": "/assets/uploads/movie-squad.jpg"
     }
   ],
   "resume": {

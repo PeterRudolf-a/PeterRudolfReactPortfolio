@@ -9,7 +9,7 @@ const FreelanceServices = () => {
       features: [
         "1–2 page static website",
         "Responsive design",
-        "Deployed to Netlify",
+        "Deployed to Netlify/Render",
       ],
     },
     {

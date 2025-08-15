@@ -88,34 +88,6 @@
   font-size: 1.6rem;
 }
 
-.christmas-assistance {
-  background-image: url("../assets/christmas-assistance.png");
-}
-
-.vehicle-builder {
-  background-image: url("../assets/vehicle-builder.png");
-}
-
-.readme-generator {
-  background-image: url("../assets/readme-generator.png");
-}
-
-.weather-dashboard {
-  background-image: url("../assets/weather-dashboard.png");
-}
-
-.employee-tracker {
-  background-image: url("../assets/employee-tracker.png");
-}
-
-.travel-buddy {
-  background-image: url("../assets/travel-buddy.jpg");
-}
-
-.movie-squad {
-  background-image: url("../assets/movie-squad.jpg");
-}
-
 @media (max-width: 768px) {
   .flex-container {
     grid-template-columns: 1fr;
